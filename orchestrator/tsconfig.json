@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    /* ────────────── ECMAScript 버전 & 모듈 ────────────── */
+    "target": "es2022",            // Top‑level await 지원
+    "module": "es2022",            // ESM 모드
+
+    /* ────────────── 모듈 해석 & 경로 ────────────── */
+    "moduleResolution": "node",    // Node 표준 해석
+    "rootDir": "src",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,       // axios·openai 등 default export 호환
+
+    /* ────────────── 타입 검사 ────────────── */
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* ────────────── typia 트랜스폼 ────────────── */
+    "plugins": [
+      { "transform": "typia/lib/transform" }
+    ]
+  },
+  "include": ["src/**/*"]
+}

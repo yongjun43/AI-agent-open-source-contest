@@ -1,0 +1,9 @@
+agentica:
+  api_url: "https://agentica.example.com/api/complaints"
+  api_token: "YOUR_AGENTICA_API_TOKEN"
+
+openai:
+  api_key: "YOUR_OPENAI_API_KEY"
+
+model:
+  yolo_weights: "./models/yolov8_complaint.pt"

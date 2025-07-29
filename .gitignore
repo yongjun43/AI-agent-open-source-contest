@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+vision-service/models/
+# Node
+node_modules/
+.orchestrator_env/
+# Secrets
+.env
+OPENAI_KEY.txt
+# OS & editor
+.DS_Store
+*.swp
