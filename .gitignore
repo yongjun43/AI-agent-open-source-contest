@@ -1,14 +1,18 @@
-# Python
+# Python 가상환경 & 캐시
+.venv/
 __pycache__/
 *.py[cod]
-.venv/
-vision-service/models/
-# Node
+
+# Node 패키지
 node_modules/
-.orchestrator_env/
-# Secrets
+
+# 대용량 모델 가중치 (필요하면 제외 제거)
+vision-service/models/
+*.pt
+
+# 환경 변수·비밀
 .env
-OPENAI_KEY.txt
-# OS & editor
+
+# OS & 에디터
 .DS_Store
 *.swp
