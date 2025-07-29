@@ -16,3 +16,5 @@ vision-service/models/
 # OS & 에디터
 .DS_Store
 *.swp
+/*.pt
+/*.whl
