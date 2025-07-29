@@ -1,4 +1,4 @@
-# 🛠️ Crack Auto-Label Program  
+# AI agent(agentica) 
 **FastAPI + YOLOv8(+OCR) Vision Service** × **Agentica (Node TS) Orchestrator**
 
 ```
